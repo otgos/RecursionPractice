@@ -1,2 +1,2 @@
 # RecursionPractice
-adds $ sign between exhach character of a string
+adds $ sign between the characters of a string
