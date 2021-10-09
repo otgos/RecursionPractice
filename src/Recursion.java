@@ -5,10 +5,14 @@ public class Recursion {
 
         System.out.println(addDollarSign("james"));
 
+        System.out.println(addDollarSign("s"));
+
+        System.out.println(addDollarSign("Kazakhstan"));
+
     }
 
     public static String addDollarSign(String str) {
-        if (str.length()==1){
+        if (str.length()<=1){
             return str;
         }
         return str.charAt(0)+ "$" + addDollarSign(str.substring(1));
